@@ -1,38 +1,44 @@
 number = 916748676920039158098660927585380162483106680144308622407126516427934657040867096593279205767480806790022783016354924852380335745316935111903596577547340075681688305620821016129132845564805780158806771
 root = 23
 
-length = 2**root.to_s.length
+answer = number**(1/root.to_f)
+puts number
+puts root
+puts 1/root.to_f
+puts answer
 
-a = 1
-text = ''
+# length = 2**root.to_s.length
 
-count = 0
+# a = 1
+# text = ''
 
-while count < length do
-  text << 9
-end
+# count = 0
 
-b = text.to_i
+# while count < length do
+#   text << 9
+# end
 
-i = 0
+# b = text.to_i
 
-while i < 20 && !answer do
-  c = (a + b)/2
+# i = 0
 
-  if c**root > number
-    b = c
-  elsif c**root < number
-    a = c
-  else c**root == number
-    answer = c
-  end
+# while i < 20 && !answer do
+#   c = (a + b)/2
 
-  i = i + 1
-end
+#   if c**root > number
+#     b = c
+#   elsif c**root < number
+#     a = c
+#   else c**root == number
+#     answer = c
+#   end
 
-if answer
-  puts answer
-else
-  puts c
-end
+#   i = i + 1
+# end
+
+# if answer
+#   puts answer
+# else
+#   puts c
+# end
 
