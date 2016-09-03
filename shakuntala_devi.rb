@@ -7,38 +7,33 @@ puts root
 puts 1/root.to_f
 puts answer
 
-# length = 2**root.to_s.length
+length = 2**root.to_s.length
 
-# a = 1
-# text = ''
+a = 1
+text = ''
 
-# count = 0
+count = 0
 
-# while count < length do
-#   text << 9
-# end
+while count < length do
+  text << 9
+end
 
-# b = text.to_i
+b = text.to_i
 
-# i = 0
+i = 0
 
-# while i < 20 && !answer do
-#   c = (a + b)/2
+while i < 20 && !answer do
+  c = (a + b)/2
 
-#   if c**root > number
-#     b = c
-#   elsif c**root < number
-#     a = c
-#   else c**root == number
-#     answer = c
-#   end
+  if c**root > number
+    b = c
+  elsif c**root < number
+    a = c
+  else c**root == number
+    answer = c
+  end
 
-#   i = i + 1
-# end
+  i = i + 1
+end
 
-# if answer
-#   puts answer
-# else
-#   puts c
-# end
 

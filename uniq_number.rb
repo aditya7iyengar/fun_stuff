@@ -1,6 +1,6 @@
-max = 100
+max = 1000
 
-i = 0
+i = 100
 
 array = []
 numbers_array = []
