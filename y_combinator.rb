@@ -93,11 +93,3 @@ fizzbuzzfoo_with_I = lambda { |f|
 
 puts 'I.call(fizzbuzzfoo_with_I).call(12)'
 I.call(fizzbuzzfoo_with_I).call(12)
-
-
-
-
-
-
-
-
